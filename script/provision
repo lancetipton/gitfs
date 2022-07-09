@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PYTHON_VERSION=python3.7
+export PYTHON_VERSION=python3.8
 
 function python {
     $PYTHON_VERSION "$@"
