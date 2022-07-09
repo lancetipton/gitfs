@@ -48,10 +48,10 @@ $(VIRTUAL_ENV)/bin/pip%:
 virtualenv: $(VIRTUAL_ENV)/bin/pip$(PYTHON)
 
 testenv: virtualenv
-	script/testenv
+	scripts/testenv
 
 test: testenv
-	script/test
+	scripts/test
 
 clean:
 	rm -rf $(BUILD_DIR)
